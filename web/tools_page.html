@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>コンポーネント</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="CSS/tools_page.css">
+        <link rel="icon" href="favicon.ico">
+        <script type="text/javascript" src="js/tools_page.js"></script>
+    </head>
+    <body>
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row" id="head">
+            <div class="col-sm" id="head_left">
+                <img src="img/E.png" width="30px" alt="">
+                <a href="index.html">ホームページ</a>
+                <a href="blog.html">ブログ</a>
+                <a href="tools_page.html">コンポーネント</a>
+                <a href="author.html">作者</a>
+            </div>
+            <div class="col-sm" id="head_right">
+                <div class="symTime" id="clock"></div>
+                <div class="null"></div><!--空标记用于清楚子级浮动对父标签的影响-->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-lg-none">
+        <div class="row" style="line-height: 40px;margin-top: 10px;margin-bottom: 10px">
+            <div class="col-xs"style="padding-left: 60px;display: inline;font-weight: bolder">
+                <img src="img/E.png" width="30" alt="">
+            </div>
+            <div class="col-xs" style="position: absolute;right: 60px;display: inline">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        快速导航
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="index.html">ホームページ</a>
+                        <a class="dropdown-item" href="blog.html">ブログ</a>
+                        <a class="dropdown-item" href="tools_page.html">コンポーネント</a>
+                        <a class="dropdown-item" href="author.html">作者</a>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="content">
+        <div class="row" id="content_1">
+            <div class="col-sm" id="first">
+                <table>
+                    <tr>
+                        <div id="fangkuai_1">
+                            学校项目
+                        </div>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/webx.png" id="fangkuai_1_img1" alt="fangkuai_1_img1"><br>
+                            <a href="web_chen_project/web_chen_project_login.html" id="fangkuai_1_wenzi1">Web开发设计项目</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row" id="content_2">
+            <div class="col-sm" id="second">
+                <table>
+                    <tr>
+                        <div id="fangkuai_2">
+                            API's
+                        </div>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>

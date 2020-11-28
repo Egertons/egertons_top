@@ -1,0 +1,111 @@
+.clearFixed:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header .header_left{
+    margin-left: 10px;
+    margin-right: 25px;
+    float: left;
+}
+.header .header_right{
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-top: 200px;
+}
+
+.header .header_right h2{
+    text-indent: 45px;
+    text-align: left;
+}
+
+.header .header_right p{
+    text-indent: 45px;
+    line-height:40px;
+}
+
+.content .content_1 .content_1_left{
+    float: left;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.content .content_1 .content_1_left span{
+    line-height: 60px;
+}
+
+.content .content_1 .content_1_right{
+    float: right;
+    margin-right: 313px;
+    margin-top: 50px;
+}
+
+.content .content_1 .content_1_right span{
+    line-height: 60px;
+}
+
+.content .content_2 .content_2_left{
+    float: left;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.content .content_2 .content_2_left span{
+    line-height: 60px;
+}
+
+.content .content_2 .content_2_right{
+    float: right;
+    margin-right: 300px;
+    margin-top: 10px;
+}
+.content .content_2 .content_2_right span{
+    line-height: 60px;
+}
+
+.content .content_3 .content_3_left{
+    float: left;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.content .content_3 .content_3_left span{
+    line-height: 60px;
+}
+
+.content .content_3 .content_3_right{
+    float: right;
+    margin-right: 383px;
+    margin-top: 10px;
+}
+.content .content_3 .content_3_right span{
+    line-height: 60px;
+}
+
+.content .content_4 .content_4_left{
+    float: left;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+.content .content_4 .content_4_left span{
+    line-height: 60px;
+}
+
+.content .content_4 .content_4_right{
+    float: right;
+    margin-right: 336px;
+    margin-top: 10px;
+}
+.content .content_4 .content_4_right span{
+    line-height: 60px;
+}
+
+.footer{
+    height: 320px;
+    width: 100%;
+    background-color: #FFF2CC;
+}
+.footer p{
+    line-height:50px;
+}

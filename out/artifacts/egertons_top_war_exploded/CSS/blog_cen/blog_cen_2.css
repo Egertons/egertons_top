@@ -1,0 +1,42 @@
+h1{letter-spacing: 3px;}
+#Con_left{
+    background-color: #fff;
+    border: 2px solid #000000;
+    border-bottom-color: rgba(0,0,0,0);
+    border-top-color: rgba(0,0,0,0);
+    border-left-color: rgba(0,0,0,0);
+}
+
+#Con_left .Con_left_1 p{
+    text-indent:25px;
+    line-height:40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#Con_left .Con_left_2 p{
+    text-indent:45px;
+    line-height:40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#Con_right{
+    background-color: #E2EFD9;
+    border:2px solid #00B050;
+}
+
+#Con_right p{
+    line-height:45px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer{
+    height: 320px;
+    width: 100%;
+    background-color: #FFF2CC;
+}
+.footer p{
+    line-height:50px;
+}
