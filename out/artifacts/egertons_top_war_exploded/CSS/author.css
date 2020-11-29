@@ -43,14 +43,6 @@ body{
     text-align: center;
 }
 
-#content_left{
-    height: 600px;
-}
-
-#content_right{
-    height: 600px;
-}
-
 .card {
     position: relative;
     display: -ms-flexbox;
