@@ -9,6 +9,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
   </component>
@@ -29,5 +30,7 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="popper.js" level="application" />
     <orderEntry type="library" name="typed" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="ityped" level="application" />
   </component>
 </module>

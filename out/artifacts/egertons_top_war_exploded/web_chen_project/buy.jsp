@@ -20,7 +20,7 @@
             session = request.getSession();
             String good = request.getParameter("list");
             if(good!=null){
-                Map shopcart = (Map)session.getAttribute("shopcart");//问题：这里的shopcart是什么时候设置的？
+                Map shopcart = (Map)session.getAttribute("shopcart");
                 if(shopcart!=null){
                     Integer count = (Integer)shopcart.get(good);
                     if (count==null){
